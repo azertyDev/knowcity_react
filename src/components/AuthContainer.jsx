@@ -5,6 +5,7 @@ import {setEmailText, setPasswordText} from "../redux/Auth/actions";
 
 class AuthContainer extends React.Component {
 	render() {
+		debugger
 		return (
 			<Auth
 				email={this.props.email}
